@@ -1,0 +1,34 @@
+/* Apply box-sizing border-box to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a default font family */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Set up a more consistent layout for block-level elements */
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure that images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
